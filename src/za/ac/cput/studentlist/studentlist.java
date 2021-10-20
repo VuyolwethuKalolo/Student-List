@@ -11,13 +11,15 @@ package za.ac.cput.studentlist;
  */
 public class studentlist {
     
-    
+    /**
+     * This is a name sending app
+     */
   private String  name ;
-
+//Constructor
     public studentlist(String name) {
         this.name = name;
     }
-
+//getters and setters 
     public String getName() {
         return name;
     }
